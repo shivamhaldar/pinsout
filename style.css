@@ -65,6 +65,10 @@
     align-items: center;
     width: 50%;
 }
+.header .getvalue .getvaluetext{
+    float: left;
+    width: 40%;
+}
 
 .header .getvaluetext button{
     margin-top: 2%;
@@ -72,9 +76,10 @@
 }
 
 .header .getvalue .image{
+    float: right;
     margin-top: 10%;
-    width: 35%;
-    height: 35%;
+    width: 30%;
+    height: 30%;
 }
 
 .color{

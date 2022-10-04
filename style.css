@@ -1,0 +1,491 @@
+
+
+*{
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(97, 73, 205);
+}
+
+.top{
+    margin-left: 50px;
+    width: 90%;
+    height: 40px;
+    padding-top: 2%;
+    border-bottom: 2px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.585);
+}
+
+.photo{
+    float: left;
+}
+
+.welcome{
+    color: white;
+    float: left;
+    font-size: 8px;
+    margin-left: 30%;
+}
+
+.welcome h1{
+    margin-left: 24px;
+}
+
+.header .top .signin{
+    margin-left: 0;
+}
+.header .top .signin #sign{
+    background-color: transparent;
+    color: white;
+    border: 0;
+}
+.header .top .signin #register{
+    color: rgb(97, 73, 205);
+    border: 0;
+    border-radius: 5px;
+}
+
+.header .top .signin button{
+    padding: 0.5% 1.5%;
+}
+
+.header .getvaluetext{
+    color: white;
+    float: left;
+    height: 200px;
+    margin-top: 10%;
+    margin-left: 15%;
+    align-items: center;
+    width: 50%;
+}
+
+.header .getvaluetext button{
+    margin-top: 2%;
+    padding: 1% 3%;
+}
+
+.header .getvalue .image{
+    margin-top: 10%;
+    width: 35%;
+    height: 35%;
+}
+
+.color{
+    padding-left: 10%;
+    padding-right: 20%;
+    width: 70%;
+    height: 25px;
+    background-color: rgb(97, 73, 205);
+}
+.table{
+    width: 80%;
+    height: 53px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    border: 1px;
+}
+
+.table .chair{
+    text-align: center;
+    font-size: 9px;
+    float: left;
+    width: 25%;
+    margin-left: 5%;
+    margin-top: 8px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.howitworks{
+    margin-top: 10%;
+    text-align: center;
+}
+
+.howitworks .ball{
+    float: left;
+    margin-top: 7%;
+    margin-left: 9%;
+    margin-bottom: 5%;
+}
+
+.howitworks .ball h1{
+    font-size: 25px;
+}
+
+.howitworks .ball p{
+    font-size: 10px;
+}
+
+.workonreal{
+    width: 80%;
+    margin-left: 10%;
+    height: 600px;
+}
+
+.workonreal .work{
+    float: left;
+    width: 50%;
+    margin-top: 9%;
+}
+
+.workonreal .work img{
+    height: 60%;
+    width: 60%;
+}
+.workonreal .work h1{
+    margin-bottom: 4%;
+}
+.workonreal .work p{
+    margin: 2%;
+}
+.workonreal .work button{
+    margin-top: 2%;
+    padding: 2% 8%;
+    background-color: rgb(97, 73, 205);
+    border-radius: 5px;
+    border: 0;
+    color: white;
+}
+
+.card{
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-right: 3%;
+    background-color: rgb(246, 246, 246);
+    border-radius: 5px;
+    width: 80%;
+    height: 400px;
+
+}
+
+.card .one{
+    margin-top: 10%;
+    padding: 5% 2%;
+    background-color: rgb(201, 201, 201);
+    border-radius: 5px;
+    margin-left: 3%;
+    float: left;
+}
+.card .one p{
+    margin-top: 3%;
+}
+.card .one h1{
+    padding-top: 3%;
+}
+.card .one h2{
+    color: rgb(97, 73, 205);
+    padding-top: 9%;
+}                 
+.card .one h2 :hover{
+    color: white;
+}
+.card :hover{
+    background-color: rgb(97, 73, 205);
+    color: white;
+}
+
+.exploreindustry{
+    margin-top: 8%;
+    margin-left: 10%;
+    width: 80%;
+    height: 600px;
+}
+
+.exploreindustry h1{
+    font-size: 25px;
+
+}
+.exploreindustry p{
+    margin-top: 1%;
+    font-size: 15px;   
+}
+
+.exploreindustry .one{
+    background-color: rgb(247, 247, 247);
+    border-radius: 5px;
+    margin-top: 5%;
+    float: left;
+    margin-left: 3%;
+    padding: 3% 4%;
+}
+
+.exploreindustry :hover{
+    background-color: rgb(97, 73, 205);
+    color: white;
+}
+
+.internship{
+    width: 100%;
+    height: 900px;
+    margin-top: 5%;
+    background-color: rgb(246, 246, 246);
+}
+
+.internship .ship{
+    margin-left: 10%;
+    padding-top: 5%;
+}
+
+.internship .ship p{
+    margin-top: 2%;
+}
+
+.internship .intern{
+    float: left;
+    width: 70%;
+}
+
+.internship .side{
+    margin-top: 45px;
+}
+.internship .side button{
+    background-color: white;
+    border: 0;
+    font-weight: bold;
+    color: rgb(97, 73, 205);
+    padding: 1% 2%;
+    border-radius: 5px;
+}
+.internship .biscuit{
+    width: 80%;
+    margin-left: 9%;
+}
+.internship .biscuit{
+    margin-top: 5%;
+}
+.internship .biscuit .one{
+    background-color: white;
+    float: left;
+    margin: 5% 1%;
+    padding: 2% 4%;
+}
+
+.internship .one h1{
+    font-size: 20px;
+}
+.internship .one p{
+    margin-top: 14px;
+    font-size: 9px;
+}
+.internship .one button{
+    margin-top: 9px;
+}
+.internship .biscuit .one button{
+    margin-top: 15%;
+    padding: 2% 37%;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(97, 73, 205);
+}
+
+.latestjob{
+    padding-top: 10%;
+    width: 100%;
+    height: 750px;
+    background-color: rgb(246, 246, 246);
+}
+.job{
+    width: 80%;
+    margin-left: 10%;
+}
+.latest{
+    float: left;
+    width: 80%;
+}
+.latestjob .side{
+    padding-top: 40px;
+}
+.latestjob .side button{
+    background-color: white;
+    border: 0;
+    padding: 1% 2%;
+    border-radius: 5px;
+    font-weight: bold;
+    color: rgb(97, 73, 205);
+}
+.latestjob .netflix{
+    padding: 5% 10%;
+}
+.latestjob .netflix .one{
+    height: 100px;
+    padding: 5% 10%;
+    margin: 2% 1%;
+    float: left;
+    background-color: white;
+    border-radius: 5px;
+}
+.latestjob .netflix .one h1{
+    font-size: 20px;
+    padding-bottom: 5%;
+}
+.latestjob .netflix .one p{
+    margin-top: 7%;
+    font-size: 10px;
+}
+.latestjob .netflix .one img{
+    float: left;
+    width: 30%;
+}
+.latestjob .one button{
+    margin-top: 9%;
+    color: rgb(97, 73, 205);
+    background-color: rgba(0, 0, 128, 0.023);
+    border: 0;
+    padding: 5% 20%;
+    border-radius: 3px;
+}
+
+.whatstudent{
+    width: 80%;
+    margin: 7% 10%;
+    height: 700px;
+}
+.whatstudent .student text{
+    color: rgb(97, 73, 205);
+}
+.whatstudent .student p{
+    font-size: 14px;
+    margin-top: 1%;
+}
+.whatstudent .student .scroll{
+    margin-top: 4%;
+    padding-bottom: 10%;
+}
+.whatstudent .student .scroll button{
+    float: left;
+    margin-top: 1%;
+}
+.whatstudent .student .scroll .bar{
+    margin-left: 3%;
+    float: left;
+    width: 27%;
+}
+.whatstudent .student .scroll .bar img{
+    margin-top: 2%;
+    float: left;
+    width: 15%;
+}
+.whatstudent .student .scroll .bar h1{
+    font-size: 20px;
+}
+.whatstudent .student .scroll .bar p{
+    margin-left: 25%;
+}
+.whatstudent .box{
+    width: 100%;
+    height: 250px;
+    color: white;
+    background-color: rgb(97, 73, 205);
+    border-radius: 8px;
+}
+.whatstudent .box .content{
+    padding: 5% 20%;
+    text-align: center;
+}
+.whatstudent .box img{
+    padding: 2% 40%;
+}
+.whatstudent .decision{
+    padding: 8% 0;
+    text-align: center;
+}
+.whatstudent .decision .decisiontable{
+    margin-top: 4%;
+}
+.whatstudent .decision .decisiontable img{
+    margin:0 6%;
+
+}
+.whatstudent .decision .decisiontable button{
+    margin: 0;
+}
+
+.subscribe{
+    margin: 20% 30%;
+    width: 40%;
+
+    height: 200px;
+    text-align: center;
+}
+.subscribe p{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.subscribe input{
+    margin: 5% 0;
+    padding: 2% 3%;
+    border: 0;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+.subscribe button{
+    margin: 5% 0;
+    padding: 2% 3%;
+    background-color: rgb(97, 73, 205);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
+.last{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 0, 128, 0.116);
+}
+.footer{
+    padding-top: 5%;
+    width: 80%;
+    margin-left: 10%;
+    height: 200px;
+}
+.footer .collab{
+    width: 50%;
+    float: left;
+    font-weight: bold;
+}
+.footer .collab p{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.footer .one{
+    width: 15%;
+    float: left;
+}
+.footer .one h1,h2{
+    font-size: 15px;
+}
+.footer .one h1{
+    color: rgba(0, 0, 0, 0.494);
+}
+.footer .one h2{
+    color: rgb(97, 73, 205);
+}
+
+.bottom{
+    margin-left: 15%;
+    width: 70%;
+    height: 20px;
+    text-align: center;
+    font-size: 9px;
+    border-top: 2px;
+    border-color: rgba(0, 0, 128, 0.464);
+    border-style: solid;
+    border-left: 0;
+    border-bottom: 0;
+    border-right: 0 ;
+}
+.bottom h1{
+    padding-top: 1%;
+    color: rgba(0, 0, 0, 0.737);
+}
